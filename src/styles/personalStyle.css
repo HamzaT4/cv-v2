@@ -1,0 +1,36 @@
+.per-inputs{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+textarea {
+    resize: none;
+  }
+
+#facePic::-webkit-file-upload-button {
+    display:none;
+    visibility: hidden;
+  }
+  #facePic::before {
+    content: 'Personal Photo';
+    display: inline-block;
+    width: 97%;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #111;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  #facePic:hover::before {
+    border-color: black;
+  }
+  #facePic:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }

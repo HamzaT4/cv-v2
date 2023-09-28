@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Cairo&family=Secular+One&display=swap');
+
+input,textarea{
+    color:white;
+    background-color:#253744 ;
+}
+body{
+    background-color: #0b0f14;
+    padding:5rem;
+   
+}
+#root{
+    display: flex;
+}
+.cvLayout{
+    top: 3rem;
+    left: 45rem;
+    
+    width: 210mm;
+    height: 297mm;
+   
+
+    
+}
+.cvHeader{
+    width: 100%;
+    height: 15%;
+    background-color: #27374D;
+    padding: 35px 10px;
+}
+.cvBody{
+display: flex;
+height: 85%;
+width: 100%;
+
+}
+.cvPer{
+background-color: #526D82;
+width: 25%;
+padding: 5px;
+}
+
+.cvContent{
+width: 75%;
+background-color: #DDE6ED;
+padding: 5px;
+}
+
+img{
+    width: 5rem;
+    margin-left: 20%;
+}
+
+h4{
+    border-bottom: #526D82 solid 1px;
+    margin-bottom: 3px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 0.8rem;
+}
+
+.expPeriod{
+ display: flex ;
+ column-gap: 3rem;
+align-items: center;
+}
+.eduPeriod{
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+
+}
+h1  ,h5,p{
+    font-family: 'Secular One', sans-serif;
+}

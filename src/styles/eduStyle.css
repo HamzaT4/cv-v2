@@ -1,0 +1,8 @@
+.edu-inputs{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color:beige
+}
